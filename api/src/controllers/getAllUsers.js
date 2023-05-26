@@ -14,7 +14,7 @@ const getAllUsers = async (req,res) => {
             throw new Error("There is not users")}
     } catch (error) {
         return res.send({"error" : error.message})
-    } 
+    }
 }
 
 module.exports = getAllUsers
