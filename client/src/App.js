@@ -3,6 +3,7 @@ import Courses from "./components/courses/Courses";
 import NavBar from "./components/navBar/NavBar";
 import Landing from "./components/landing/Landing";
 import Home from "./components/home/Home";
+import Register from "./components/register/Register";
 
 function App() {
   const location = useLocation()
@@ -12,6 +13,7 @@ function App() {
       <Routes>
         <Route path="/home" element={<Home/>}/>
         <Route path="/courses" element={<Courses/>}/>
+        <Route path="/register" element={<Register/>}/>
       </Routes>
     </div>
   );
