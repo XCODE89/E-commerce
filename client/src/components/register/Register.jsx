@@ -2,6 +2,7 @@ import { useState } from "react"
 
 import validation from "./validation"
 
+
 const Register = () => {
 const [input, setInput] = useState({
     name :"",

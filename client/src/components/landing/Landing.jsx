@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom"
 
 const Landing = () => {
+    
     console.log("mierda")
     return (
         <h1>

@@ -1,5 +1,6 @@
 
 const NavBar = () => {
+    
     console.log("este es el navbar");
     return (
         <h1>
