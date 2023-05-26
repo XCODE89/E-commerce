@@ -22,6 +22,7 @@ const {User, Course} = sequelize.models
 User.hasMany(Course, {onDelete: 'CASCADE'}); 
 Course.belongsTo(User);
 
+
 module.exports = {
     ...sequelize.models,
     conn: sequelize

@@ -3,6 +3,7 @@ import logo from "../../images/logo.jpg"
 import style from "./NavBar.module.css"
 
 const NavBar = () => {
+    
     console.log("este es el navbar");
     return (
     <header id="header" className="header">

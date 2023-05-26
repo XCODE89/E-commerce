@@ -8,6 +8,7 @@ const newUser = async (req, res) => {
     return createUser
 }
 
+
 const postNewUser = async (req,res) => {
     
     try {

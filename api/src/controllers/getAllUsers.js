@@ -5,6 +5,7 @@ const allUsers = () => {
     return results
 }
 
+
 const getAllUsers = async (req,res) => {
     try {
         const users = await allUsers();

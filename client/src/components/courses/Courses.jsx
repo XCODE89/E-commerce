@@ -2,6 +2,7 @@ import Banner from "./Banner";
 import CardCourse from "./CardCourse";
 
 const Courses = () => {
+    
     console.log("estos son los courses");
     return (
         <div>

@@ -4,6 +4,7 @@ import estrellas from "../../images/estrellas.png"
 
 
 const CardCourse = () => {
+    
     const handleClick = (e) => {
     e.preventDefault();
     console.log(e.target.dataset.id);

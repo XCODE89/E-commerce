@@ -1,5 +1,6 @@
 import carrito from "../../images/cart.png"
 
+
 const  Cart = () => {
     return (
         <div className="two columns u-pull-right">

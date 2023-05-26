@@ -7,6 +7,7 @@ const {Router} = require("express")
 
 const userRouter = Router()
 
+
 userRouter.post("/", postNewUser)
 userRouter.get("/", getAllUsers)
 userRouter.delete("/", deleteUser)

@@ -1,4 +1,5 @@
 const validation = (input) => {
+    
     let errors = {}
     if (!/^[ a-zA-ZñÑáéíóúÁÉÍÓÚ]+$/.test(input.name)) {
         errors.name = "Only should contain letters."

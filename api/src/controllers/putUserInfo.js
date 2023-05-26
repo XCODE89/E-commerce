@@ -6,4 +6,5 @@ const putUserInfo = (req,res) => {
     }
 }
 
+
 module.exports = putUserInfo;
