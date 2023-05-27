@@ -14,11 +14,11 @@ const CardCourse = () => {
 
     return (
         <div className="card">
-            <img src={curso1} className="imagen-curso u-full-width"/>
+            <img src={curso1} alt="curso" className="imagen-curso u-full-width"/>
             <div className="info-card">
                 <h4>HTML5, CSS3, JavaScript para Principiantes</h4>
                 <p>Juan Pedro</p>
-                <img src={estrellas}/>
+                <img src={estrellas} alt="estrellas"/>
                 <p className="precio">$200  <span className="u-pull-right ">$15</span></p>
                 <button className="u-full-width button-primary button input agregar-carrito" onClick={handleClick} data-id="1">Agregar Al Carrito</button>
             </div>

@@ -1,13 +1,12 @@
 import { Link } from "react-router-dom"
 
 const Landing = () => {
-    
-    console.log("mierda")
     return (
-        <h1>
+        <div>
             este es el landing
             <Link to="/home">Ingresar</Link>
-        </h1>
+            <Link to="/register">Registrar</Link>
+        </div>
     )
 }
 
